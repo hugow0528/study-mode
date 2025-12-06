@@ -37,7 +37,7 @@ export default async function handler(req, res) {
     ];
 
     const response = await openai.chat.completions.create({
-      model: "gemini-3-pro-preview",
+      model: "gemini-2.0-flash",
       messages: fullMessages,
     });
 
